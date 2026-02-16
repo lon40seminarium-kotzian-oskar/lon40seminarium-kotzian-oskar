@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <body style="font-family: Tahoma;"></body>
         <meta charset="utf-8">
         <title>strona</title>
-        <link rel="stylesheet" href="style.css">
-        <style>
-            .srodek {
-                text-align: center;
-            }
-        </style>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-      <body id = "background">
     <h1 class="title">Strony</h1>
   <div class="container">
     <a class="button" href="index1.php" title="1">Elementy Elektroniczne</a>

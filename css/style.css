@@ -1,0 +1,138 @@
+/* General Body and Container Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header/Title Styles */
+.title {
+  background-color: #28a745; /* A pleasant green */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 2.2em;
+  border-radius: 8px 8px 0 0;
+  margin: -20px -20px 20px -20px; /* Adjust margin to fit container */
+}
+
+/* Image Styles */
+.center-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.button {
+  background-color: #007bff; /* A standard blue */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Text alignment and utility classes */
+.srodek, .link-srodek {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* For text within .srodek */
+}
+
+.srodek1 {
+  text-align: center;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table.srodek {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Specific elements from original CSS - to be reviewed if still needed */
+#background {
+    background-color: #f4f4f4; /* Should match body background for consistency */
+    color: #f4f4f4; /* This makes text invisible, reconsider */
+}
+
+#container1 { /* This seems to be a specific legacy container */
+    background-color: #e9ecef; /* Light grey */
+    width: 100%; /* Make it responsive */
+    max-width: 600px; /* Max width for larger screens */
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.figure-fieldset { /* This appears to be a specific figure placeholder */
+    height: 200px;
+    width: 200px;
+    background-image: url(../img/vivlos.gif); /* Corrected path */
+    background-size: cover;
+    background-position: center;
+    background-color: #ccc;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+#h1 { /* Specific heading style */
+    font-family: 'Verdana', Geneva, sans-serif; /* Changed for better web safety */
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    color: #28a745; /* Matching title color */
+}
+
+#f1 { /* Specific image style */
+    height: 180px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
