@@ -4,9 +4,11 @@
         <meta charset="utf-8">
     </head>
 <body>
-<?php include '../navbar.php'; ?>
+<div class="subhuman-content">
 <h2>Mikroswitch to mały, precyzyjny przełącznik mechaniczny, który reaguje na bardzo niewielki nacisk lub ruch, zmieniając stan elektryczny obwodu. Jest często używany w urządzeniach AGD, automatyce i elektronice jako czujnik końcowego położenia lub przycisk bezpieczeństwa.</h2>
+<?php include '../navbar.php'; ?>
 <img src="../img/6.png" alt="Image 6" class="center-img">
     <a href="../index1.php" title="1">Powrót</a>
+</div>
 </body>
 </html>

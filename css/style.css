@@ -32,6 +32,7 @@ body {
   background-color: #122131; /* Even darker blue-black */
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  margin-bottom: 20px; /* Add some space below the navbar */
 }
 
 .navbar a {
@@ -232,4 +233,44 @@ th {
     height: auto;
     display: block;
     margin: 10px auto;
+}
+
+/* Styles for subhuman pages content */
+.subhuman-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1a2a3a;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  text-align: center; /* Center content within subhuman pages */
+}
+
+.subhuman-content h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.subhuman-content .center-img {
+  border: 2px solid #2a63a5;
+  padding: 5px;
+  background-color: #122131;
+}
+
+.subhuman-content a { /* Style for the 'Powrót' link */
+  background-color: #2a63a5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.subhuman-content a:hover {
+  background-color: #1e4b7c;
 }

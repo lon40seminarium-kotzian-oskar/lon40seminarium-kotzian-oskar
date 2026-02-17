@@ -6,8 +6,8 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-<?php include 'navbar.php'; ?>
     <h1 class="title">Elementy Elektroniczne</h1><br><br>
+<?php include 'navbar.php'; ?>
   <div class="container">
     <a class="button" href="index.php" title="1">Powrót</a>
   </div><br>
