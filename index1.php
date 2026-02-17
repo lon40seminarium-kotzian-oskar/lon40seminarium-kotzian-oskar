@@ -6,54 +6,87 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+<?php include 'navbar.php'; ?>
     <h1 class="title">Elementy Elektroniczne</h1><br><br>
   <div class="container">
     <a class="button" href="index.php" title="1">Powrót</a>
   </div><br>
 
-    <img class="srodek" src="img/1.png">
-    <a class="link-srodek" href="subhuman/1.php" title="1">Rezystor</a><br><br>
+<div class="electronic-items-grid">
+    <div class="electronic-item">
+    <img src="img/1.png" alt="Rezystor">
+    <a href="subhuman/1.php" title="1">Rezystor</a>
+    </div>
 
-    <img class="srodek" src="img/2.png">
-    <a class="link-srodek" href="subhuman/2.php" title="1">Kondensator</a><br><br>
+<div class="electronic-item">
+    <img src="img/2.png" alt="Kondensator">
+    <a href="subhuman/2.php" title="1">Kondensator</a>
+    </div>
 
-    <img class="srodek" src="img/3.png">
-    <a class="link-srodek" href="subhuman/3.php" title="1">Dioda LED</a><br><br>
+<div class="electronic-item">
+    <img src="img/3.png" alt="Dioda LED">
+    <a class="link-srodek" href="subhuman/3.php" title="1">Dioda LED</a>
+    </div>
 
-    <img class="srodek" src="img/4.png">
-    <a class="link-srodek" href="subhuman/4.php" title="1">Wyświetlacz siedmiosegmentowy</a><br><br>
+<div class="electronic-item">
+    <img src="img/4.png" alt="Wyświetlacz siedmiosegmentowy">
+    <a href="subhuman/4.php" title="1">Wyświetlacz siedmiosegmentowy</a>
+    </div>
 
-    <img class="srodek" src="img/5.png">
-    <a class="link-srodek" href="subhuman/5.php" title="1">Klawiatura alfanumeryczna 4x4</a><br><br>
+<div class="electronic-item">
+    <img src="img/5.png" alt="Klawiatura alfanumeryczna 4x4">
+    <a href="subhuman/5.php" title="1">Klawiatura alfanumeryczna 4x4</a>
+    </div>
 
-    <img class="srodek" src="img/6.png">
-    <a class="link-srodek" href="subhuman/6.php" title="1">Mikroswitch</a><br><br>
+<div class="electronic-item">
+    <img src="img/6.png" alt="Mikroswitch">
+    <a href="subhuman/6.php" title="1">Mikroswitch</a>
+    </div>
 
-    <img class="srodek" src="img/7.png">
-    <a class="link-srodek" href="subhuman/7.php" title="1">Fotorezystor</a><br><br>
+<div class="electronic-item">
+    <img src="img/7.png" alt="Fotorezystor">
+    <a href="subhuman/7.php" title="1">Fotorezystor</a>
+    </div>
 
-    <img class="srodek" src="img/8.png">
-    <a class="link-srodek" href="subhuman/8.php" title="1">Przekaźnik</a><br><br>
+<div class="electronic-item">
+    <img src="img/8.png" alt="Przekaźnik">
+    <a href="subhuman/8.php" title="1">Przekaźnik</a>
+    </div>
 
-    <img class="srodek" src="img/9.png">
-    <a class="link-srodek" href="subhuman/9.php" title="1">Silnik krokowy</a><br><br>
+<div class="electronic-item">
+    <img src="img/9.png" alt="Silnik krokowy">
+    <a href="subhuman/9.php" title="1">Silnik krokowy</a>
+    </div>
 
-    <img class="srodek" src="img/10.png">
-    <a class="link-srodek" href="subhuman/10.php" title="1">Servo SG-90</a><br><br>
+<div class="electronic-item">
+    <img src="img/10.png" alt="Servo SG-90">
+    <a href="subhuman/10.php" title="1">Servo SG-90</a>
+    </div>
 
-    <img class="srodek" src="img/11.png">
-    <a class="link-srodek" href="subhuman/11.php" title="1">Potencjometr</a><br><br>
+<div class="electronic-item">
+    <img src="img/11.png" alt="Potencjometr">
+    <a href="subhuman/11.php" title="1">Potencjometr</a>
+    </div>
 
-    <img class="srodek" src="img/12.png">
-    <a class="link-srodek" href="subhuman/12.php" title="1">Enkoder inkrementalny</a><br><br>
+<div class="electronic-item">
+    <img src="img/12.png" alt="Enkoder inkrementalny">
+    <a href="subhuman/12.php" title="1">Enkoder inkrementalny</a>
+    </div>
 
-    <img class="srodek" src="img/13.png">
-    <a class="link-srodek" href="subhuman/13.php" title="1">Czujnik ultradźwiękowy</a><br><br>
+<div class="electronic-item">
+    <img src="img/13.png" alt="Czujnik ultradźwiękowy">
+    <a href="subhuman/13.php" title="1">Czujnik ultradźwiękowy</a>
+    </div>
 
-    <img class="srodek" src="img/14.png">
-    <a class="link-srodek" href="subhuman/14.php" title="1">Czujnik magnetyczny - kontaktron</a><br><br>
+<div class="electronic-item">
+    <img src="img/14.png" alt="Czujnik magnetyczny - kontaktron">
+    <a href="subhuman/14.php" title="1">Czujnik magnetyczny - kontaktron</a>
+    </div>
 
-    <img class="srodek" src="img/15.png">
-    <a class="link-srodek" href="subhuman/15.php" title="1">Wyświetlacz LCD</a><br><br>
+<div class="electronic-item">
+    <img src="img/15.png" alt="Wyświetlacz LCD">
+    <a href="subhuman/15.php" title="1">Wyświetlacz LCD</a>
+    </div>
+</div>
 
 </html>

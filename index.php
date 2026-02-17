@@ -6,18 +6,11 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+<?php include 'navbar.php'; ?>
     <h1 class="title">Strony</h1>
   <div class="container">
     <a class="button" href="index1.php" title="1">Elementy Elektroniczne</a>
   </div>    
-<body>
-  <div class="container">
-    <a class="button" href="index2.php" title="1">Obliczanie pól</a>
-  </div>
-  <br><br><br><br><br><br><br><br>
-<a href="https://pl.wikipedia.org/wiki/Uma_Musume_Pretty_Derby" title="Uma Musume Pretty Derby">
-    <img src="img/statement.gif" alt="viv" class="center-img">
-</a>
-</body>
+
     </body>
 </html>

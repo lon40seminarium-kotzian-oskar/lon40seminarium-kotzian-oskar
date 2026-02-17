@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #0d1a26; /* Dark blue-black */
+  color: #e0e6ed; /* Light gray-blue for text */
   line-height: 1.6;
 }
 
@@ -11,35 +11,57 @@ body {
   max-width: 960px;
   margin: 20px auto;
   padding: 0 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #1a2a3a; /* Slightly lighter dark blue-black */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
 }
 
 /* Header/Title Styles */
 .title {
-  background-color: #28a745; /* A pleasant green */
-  color: white;
+  background-color: #2a63a5; /* A strong blue */
+  color: #ffffff;
   padding: 20px;
   text-align: center;
   font-size: 2.2em;
   border-radius: 8px 8px 0 0;
-  margin: -20px -20px 20px -20px; /* Adjust margin to fit container */
+  margin: -20px -20px 20px -20px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #122131; /* Even darker blue-black */
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #e0e6ed;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #2a63a5;
+  color: #ffffff;
 }
 
 /* Image Styles */
 .center-img {
   display: block;
   margin: 20px auto;
-  max-width: 100%; /* Ensure images are responsive */
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Button Styles */
 .button {
-  background-color: #007bff; /* A standard blue */
+  background-color: #2a63a5; /* Blue */
   color: white;
   padding: 12px 25px;
   border: none;
@@ -53,7 +75,7 @@ body {
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #1e4b7c; /* Darker blue on hover */
 }
 
 /* Text alignment and utility classes */
@@ -61,18 +83,61 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: center; /* For text within .srodek */
+  text-align: center;
 }
 
 .srodek1 {
   text-align: center;
 }
 
+/* Electronic Items Grid for index1.php */
+.electronic-items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center items if they don't fill the row */
+  gap: 20px; /* Space between items */
+  padding: 20px 0;
+}
+
+.electronic-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 0 0 auto; /* Don't grow, don't shrink, base on content */
+  width: 150px; /* Fixed width for each item for consistency */
+  padding: 10px;
+  background-color: #1e2e3e; /* Slightly lighter than container for item background */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.electronic-item img {
+  width: 100px; /* Adjust size of images within the grid item */
+  height: 100px;
+  object-fit: contain; /* Ensure image content is fully visible */
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.electronic-item a {
+  color: #7bb5ea; /* Lighter blue for links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.electronic-item a:hover {
+  color: #a0cffc; /* Even lighter blue on hover */
+}
+
+
 /* Table Styles */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
+  color: #e0e6ed; /* Ensure table text is readable */
 }
 
 table.srodek {
@@ -81,7 +146,7 @@ table.srodek {
 }
 
 table, th, td {
-  border: 1px solid #ddd;
+  border: 1px solid #2a63a5; /* Blue border */
 }
 
 th, td {
@@ -90,45 +155,77 @@ th, td {
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #1e2e3e; /* Darker header for tables */
+  color: #ffffff;
 }
 
-/* Specific elements from original CSS - to be reviewed if still needed */
-#background {
-    background-color: #f4f4f4; /* Should match body background for consistency */
-    color: #f4f4f4; /* This makes text invisible, reconsider */
-}
-
-#container1 { /* This seems to be a specific legacy container */
-    background-color: #e9ecef; /* Light grey */
-    width: 100%; /* Make it responsive */
-    max-width: 600px; /* Max width for larger screens */
+/* Specific elements - adjusted for theme */
+#container1 {
+    background-color: #1e2e3e;
+    width: 100%;
+    max-width: 600px;
     margin: 20px auto;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.figure-fieldset { /* This appears to be a specific figure placeholder */
-    height: 200px;
-    width: 200px;
-    background-image: url(../img/vivlos.gif); /* Corrected path */
-    background-size: cover;
-    background-position: center;
-    background-color: #ccc;
-    margin: 10px auto;
+.figure-fieldset {
+    background-color: #122131; /* Darkest blue-black for fieldsets */
+    border: 1px solid #2a63a5; /* Blue border */
     border-radius: 8px;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center; /* Center content within fieldset */
+    color: #e0e6ed; /* Ensure text inside is readable */
 }
 
-#h1 { /* Specific heading style */
-    font-family: 'Verdana', Geneva, sans-serif; /* Changed for better web safety */
+.figure-fieldset h2 {
+    color: #ffffff; /* White for fieldset titles */
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.figure-fieldset input[type="number"] {
+  background-color: #0d1a26; /* Match body background */
+  border: 1px solid #2a63a5;
+  color: #e0e6ed;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.figure-fieldset button {
+  background-color: #2a63a5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.figure-fieldset button:hover {
+  background-color: #1e4b7c;
+}
+
+.result {
+  color: #7bb5ea; /* Lighter blue for results */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+#h1 {
+    font-family: 'Verdana', Geneva, sans-serif;
     font-size: 2em;
     font-style: italic;
     text-align: center;
-    color: #28a745; /* Matching title color */
+    color: #7bb5ea; /* Lighter blue for specific heading */
 }
 
-#f1 { /* Specific image style */
+#f1 {
     height: 180px;
     border-radius: 10px;
     max-width: 100%;
